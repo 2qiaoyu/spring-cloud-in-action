@@ -1,0 +1,12 @@
+server:
+  port: 8766
+security.basic.enabled: false
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: spring-cloud-user-service , spring-cloud-blog-service
+  clusterNameExpression: new String("default")
+
+management:
+  security:
+    enabled: false
