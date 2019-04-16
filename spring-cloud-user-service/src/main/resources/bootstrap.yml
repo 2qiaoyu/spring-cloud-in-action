@@ -7,3 +7,13 @@ spring:
       fail-fast: true
   profiles:
     active: pro
+
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    locator:
+      discovery:
+        enabled: true
+    sender:
+      type: web

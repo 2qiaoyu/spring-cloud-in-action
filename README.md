@@ -1,7 +1,7 @@
 ## Spring Cloud 实战
 * jdk 1.80_201
-* Spring Boot 1.5.18.RELEASE
-* Spring Cloud Edgware.RELEASE
+* Spring Boot 1.5.20.RELEASE
+* Spring Cloud Edgware.SR5
 * Mysql 5.6
 * RabbitMQ 3.7.4
 
@@ -38,3 +38,9 @@
 * http://localhost:5000/userapi/swagger-ui.html
 
 * http://localhost:5000/blogapi/swagger-ui.html
+
+## zipkin访问地址
+http://localhost:9411
+
+## Spring Boot Admin访问地址
+http://localhost:9998
